@@ -28,8 +28,8 @@ set fso=createobject("scripting.filesystemobject")
 Server.ScriptTimeout = 4000
 oConn.CommandTimeout = 4000
 
-MeraUN = MeraUser1  '  "mvts"
-MeraPW = " -pw " & MeraPwd1 ' "Gyr)*Rat3" '"defaultMVTS"
+MeraUN = MeraUser1  
+MeraPW = " -pw " & MeraPwd1 
 
 
 intention = Trim(rqF("sIntention"))
