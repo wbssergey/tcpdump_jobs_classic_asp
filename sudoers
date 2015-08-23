@@ -1,0 +1,24 @@
+# sudoers file.
+#
+# This file MUST be edited with the 'visudo' command as root.
+#
+# See the sudoers man page for the details on how to write a sudoers file.
+#
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# Defaults specification
+
+# User privilege specification
+root	ALL=(ALL) ALL
+
+mvts		ALL=(ALL)       NOPASSWD: ALL
+mvts            ALL=NOPASSWD: ALL
+
+
+
+
